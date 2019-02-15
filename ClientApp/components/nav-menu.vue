@@ -16,7 +16,7 @@
       </li>
 
       <li>
-        <router-link to="/">
+        <router-link to="fetch-data">
           <i class="fas fa-wifi"></i> API
         </router-link>
       </li>
