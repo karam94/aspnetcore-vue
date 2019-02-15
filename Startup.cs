@@ -37,7 +37,7 @@ namespace aspnetcore_vue
                 // Webpack initialization with hot-reload.
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
                 {
-                    ConfigFile = "./ClientApp/webpack.config.js",
+                    ConfigFile = "./ClientApp/config/webpack.config.js",
                     HotModuleReplacement = true
                 });
             }

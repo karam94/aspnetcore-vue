@@ -9,9 +9,9 @@
   "scripts": {
     "dev": "cross-env ASPNETCORE_ENVIRONMENT=Development NODE_ENV=development dotnet run",
     "build": "npm run build-vendor:prod && npm run build:prod",
-    "build:prod": "cross-env NODE_ENV=production webpack --config ClientApp/webpack.config.js --progress --hide-modules",
-    "build-vendor:prod": "cross-env NODE_ENV=production webpack --config ClientApp/webpack.config.vendor.js --progress",
-    "build-vendor:dev": "cross-env NODE_ENV=development webpack --config ClientApp/webpack.config.vendor.js --progress",
+    "build:prod": "cross-env NODE_ENV=production webpack --config ClientApp/config/webpack.config.js --progress --hide-modules",
+    "build-vendor:prod": "cross-env NODE_ENV=production webpack --config ClientApp/config/webpack.config.vendor.js --progress",
+    "build-vendor:dev": "cross-env NODE_ENV=development webpack --config ClientApp/config/webpack.config.vendor.js --progress",
     "lint": "eslint -c ./ClientApp/.eslintrc.js ClientApp/**/*.js  ClientApp/**/*.vue  ClientApp/**/*.json webpack*.js",
     "install": "npm run build-vendor:dev"
   },

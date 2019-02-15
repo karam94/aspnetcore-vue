@@ -2,7 +2,7 @@ const path = require('path')
 const webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
-const bundleOutputDir = '../wwwroot/dist'
+const bundleOutputDir = '../../wwwroot/dist'
 
 module.exports = () => {
   console.log('Building for \x1b[33m%s\x1b[0m', process.env.NODE_ENV)
@@ -17,26 +17,26 @@ module.exports = () => {
       extensions: ['.js', '.vue'],
       alias: isDevBuild ? {
         'vue$': 'vue/dist/vue',
-        'components': path.resolve(__dirname, './components'),
-        'views': path.resolve(__dirname, './views'),
-        'utils': path.resolve(__dirname, './utils'),
-        'api': path.resolve(__dirname, './store/api')
+        'components': path.resolve(__dirname, '../components'),
+        'views': path.resolve(__dirname, '../views'),
+        'utils': path.resolve(__dirname, '../utils'),
+        'api': path.resolve(__dirname, '../store/api')
       } : {
-        'components': path.resolve(__dirname, './components'),
-        'views': path.resolve(__dirname, './views'),
-        'utils': path.resolve(__dirname, './utils'),
-        'api': path.resolve(__dirname, './store/api')
+        'components': path.resolve(__dirname, '../components'),
+        'views': path.resolve(__dirname, '../views'),
+        'utils': path.resolve(__dirname, '../utils'),
+        'api': path.resolve(__dirname, '../store/api')
       }
     },
     output: {
       path: path.join(__dirname, bundleOutputDir),
       filename: '[name].js',
-      publicPath: '../dist/'
+      publicPath: '../../dist/'
     },
     module: {
       rules: [
-        { test: /\.vue$/, include: [path.resolve(__dirname, './')], use: 'vue-loader' },
-        { test: /\.js$/, include: [path.resolve(__dirname, './')], use: 'babel-loader' },
+        { test: /\.vue$/, include: [path.resolve(__dirname, '../')], use: 'vue-loader' },
+        { test: /\.js$/, include: [path.resolve(__dirname, '../')], use: 'babel-loader' },
         { test: /\.css$/, use: isDevBuild ? ['style-loader', 'css-loader'] : ExtractTextPlugin.extract({ use: 'css-loader' }) },
         { test: /\.(scss|sass)$/, use: ['style-loader', 'css-loader', 'sass-loader'] },
         { test: /\.(png|jpg|jpeg|gif|svg)$/, use: 'url-loader?limit=25000' }
@@ -45,7 +45,7 @@ module.exports = () => {
     plugins: [
       new webpack.DllReferencePlugin({
         context: __dirname,
-        manifest: require('../wwwroot/dist/vendor-manifest.json')
+        manifest: require('../../wwwroot/dist/vendor-manifest.json')
       })
     ].concat(isDevBuild ? [
       // Plugins that apply in development builds only

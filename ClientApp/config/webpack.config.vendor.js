@@ -17,16 +17,20 @@ module.exports = () => {
     module: {
       rules: [
         { test: /\.(png|woff|woff2|eot|ttf|svg)(\?|$)/, use: 'url-loader?limit=100000' },
-        { test: /\.css(\?|$)/, use: extractCSS.extract(['css-loader']) },
-        { test: /\.(scss|sass)$/, use: ['style-loader', 'css-loader', 'sass-loader'] }
+        { test: /\.(css|scss|sass)$/,
+          use: extractCSS.extract({
+            fallbackLoader: 'style-loader',
+            loader: 'css-loader!sass-loader'
+          })
+        }
       ]
     },
     entry: {
       vendor: ['bulma/bulma.sass', 'event-source-polyfill', 'vue', 'vuex', 'axios', 'vue-router']
     },
     output: {
-      path: path.join(__dirname, '../wwwroot', 'dist'),
-      publicPath: '../dist/',
+      path: path.join(__dirname, '../../wwwroot', 'dist'),
+      publicPath: '../../dist/',
       filename: '[name].js',
       library: '[name]_[hash]'
     },
@@ -42,7 +46,7 @@ module.exports = () => {
         // jQuery: 'jquery',
       }),
       new webpack.DllPlugin({
-        path: path.join(__dirname, '../wwwroot', 'dist', '[name]-manifest.json'),
+        path: path.join(__dirname, '../../wwwroot', 'dist', '[name]-manifest.json'),
         name: '[name]_[hash]'
       }),
       new webpack.DefinePlugin({
