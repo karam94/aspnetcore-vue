@@ -1,28 +1,29 @@
 <template>
-    <div id="app" class="container-fluid">
-        <div class="row">
-            <div class="column">
-                <nav-menu params="route: route"></nav-menu>
-            </div>
-            <div class="column">
-                <router-view></router-view>
-            </div>
-        </div>
+  <div id="app" style="padding: 20px">
+    <div class="columns">
+      <div class="column is-3">
+        <nav-menu params="route: route"></nav-menu>
+      </div>
+
+      <div class="column is-9">
+        <router-view></router-view>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
-    import NavMenu from './nav-menu'
+import NavMenu from "./nav-menu";
 
-    export default {
-      components: {
-        'nav-menu': NavMenu
-      },
+export default {
+  components: {
+    "nav-menu": NavMenu
+  },
 
-      data () {
-        return {}
-      }
-    }
+  data() {
+    return {};
+  }
+};
 </script>
 
 <style>
