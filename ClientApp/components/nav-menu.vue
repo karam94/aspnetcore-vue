@@ -1,27 +1,41 @@
 ﻿<template>
-  <aside class="menu">
-    <p class="menu-label">Menu</p>
+  <div class="navbar-menu">
+    <div class="navbar-start">
+      <div class="navbar-item">
+        <i class="fab fa-vuejs"></i> &nbsp; .NET Core w/ Vue.js 2 & Bulma
+      </div>
 
-    <ul class="menu-list">
-      <li>
-        <router-link to="/">
-          <i class="fab fa-vuejs"></i> ASP.NET Core with Vue.js 2
-        </router-link>
-      </li>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">Examples</a>
 
-      <li>
-        <router-link to="counter">
-          <i class="fas fa-sort-numeric-up"></i> Counter
-        </router-link>
-      </li>
+        <div class="navbar-dropdown">
+          <router-link class="navbar-item" to="/">
+            <i class="fas fa-home"></i> &nbsp; Home
+          </router-link>
 
-      <li>
-        <router-link to="fetch-data">
-          <i class="fas fa-wifi"></i> API
-        </router-link>
-      </li>
-    </ul>
-  </aside>
+          <router-link class="navbar-item" to="counter">
+            <i class="fas fa-sort-numeric-up"></i> &nbsp; Counter
+          </router-link>
+
+          <router-link class="navbar-item" to="fetch-data">
+            <i class="fas fa-wifi"></i> &nbsp; API
+          </router-link>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary">
+            <strong>Sign up</strong>
+          </a>
+          <a class="button is-light">Log in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- </nav> -->
 </template>
 
 <script>

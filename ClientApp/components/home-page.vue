@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content">
     <h1 class="title">Hello, world!</h1>
     <h2 class="subtitle">Welcome to your new single-page application, built with:</h2>
     <ul style="list-style: disc">
@@ -58,21 +58,18 @@
       </li>
     </ul>
 
-    <br>
-    <br>
-
-    <h2>
+    <p>
       This template can be found
-      <a href="https://github.com/karam94/ao.commercial.aspnetcore-vue">here</a> and has been modified by
+      <a
+        href="https://github.com/karam94/ao.commercial.aspnetcore-vue"
+      >here</a> and has been modified by
       <a href="https://Karam.io">Karam Kabbara</a>.
-    </h2>
-    <h3>
-      The original template can be found
+      <br>The original template can be found
       <a
         href="https://github.com/MarkPieszak/aspnetcore-Vue-starter"
       >here</a> by
       <a href="https://github.com/MarkPieszak/aspnetcore-Vue-starter">DevHelp.Online</a>.
-    </h3>
+    </p>
   </div>
 </template>
 

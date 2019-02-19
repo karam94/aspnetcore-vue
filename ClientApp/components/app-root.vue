@@ -1,13 +1,9 @@
 <template>
-  <div id="app" style="padding: 20px">
-    <div class="columns">
-      <div class="column is-3">
-        <nav-menu params="route: route"></nav-menu>
-      </div>
+  <div id="app">
+    <nav-menu params="route: route"></nav-menu>
 
-      <div class="column is-9">
-        <router-view></router-view>
-      </div>
+    <div class="container">
+      <router-view></router-view>
     </div>
   </div>
 </template>

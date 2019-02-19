@@ -9,7 +9,7 @@
         <em>Loading...</em>
       </p>
       <h1>
-        <icon icon="spinner" pulse/>
+        <i class="fas fa-spinner fa-pulse"></i>
       </h1>
     </div>
 
@@ -38,11 +38,11 @@
         <a class="pagination-next">Next page</a>
         <ul class="pagination-list">
           <li
-            :class="'page-item' + (n == currentPage ? ' active' : '')"
+            class="page-item" 
             v-for="(n, index) in totalPages"
             :key="index"
           >
-            <a class="pagination-link" @click="loadPage(n)">{{n}}</a>
+            <a :class="'pagination-link' + (n == currentPage ? ' is-current' : '')" @click="loadPage(n)">{{n}}</a>
           </li>
         </ul>
       </nav>
