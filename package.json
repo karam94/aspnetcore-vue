@@ -3,7 +3,7 @@
   "description": "ASP.NET Core & VueJS Starter project: AO Commercial Edition",
   "author": "Karam Kabbara ft. Mark Pieszak",
   "repository": {
-    "url": "https://github.com/MarkPieszak/aspnetcore-Vue-starter"
+    "url": "https://github.com/karam94/aspnetcore-vue"
   },
   "license": "MIT",
   "scripts": {
