@@ -4,7 +4,7 @@
     <h2 class="subtitle">Welcome to your new single-page application, built with:</h2>
     <ul style="list-style: disc">
       <li>
-        <a href="https://get.asp.net/">ASP.NET Core</a> and
+        <a href="https://get.asp.net/">ASP.NET Core 2.2</a> and
         <a href="https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx">C#</a> for cross-platform server-side code
       </li>
       <li>
