@@ -1,3 +1,6 @@
+/* user regular css can go here if preferred over sass */
+
 .container {
-  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }

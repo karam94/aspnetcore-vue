@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+@import "node_modules/bulma/sass/utilities/initial-variables";
+@import "node_modules/bulma/sass/utilities/functions";
+
+// Place linked variables below: https://bulma.io/documentation/customize/variables/
+$primary: #7fba23;
+
+@import "node_modules/bulma/bulma";
+
+// Place all other overrides below
