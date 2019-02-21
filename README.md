@@ -20,7 +20,7 @@ This template was created to cater for easy and quick creation of MVC/VueJS-base
   - Web API
 - **[VueJS 2.0](https://vuejs.org/)**
   - Vuex (State Management)
-- **Webpack**
+- **[Webpack](https://webpack.js.org/)**
   - HMR (Hot Module Replacement/Reloading)
 - **[Bulma](https://bulma.io)**
   - Flexbox based CSS Framework
