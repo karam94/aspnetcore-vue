@@ -16,13 +16,13 @@ This template was created to cater for easy and quick creation of MVC/VueJS-base
 
 # Features
 
-- **ASP.NET Core 2.2**
+- **[ASP.NET Core 2.2](https://get.asp.net/)**
   - Web API
-- **VueJS 2.0**
+- **[VueJS 2.0](https://vuejs.org/)**
   - Vuex (State Management)
 - **Webpack**
   - HMR (Hot Module Replacement/Reloading)
-- **Bulma**
+- **[Bulma](https://bulma.io)**
   - Flexbox based CSS Framework
 
 # Prerequisites:
@@ -39,8 +39,8 @@ This template was created to cater for easy and quick creation of MVC/VueJS-base
 - Browse to [http://localhost:5000](http://localhost:5000).
 
 # Recommended plugins for VueJS
-- Vue.js Devtools for Google Chrome [here](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en).
-- Vue.js Devtools for Mozilla Firefox [here](https://addons.mozilla.org/en-GB/firefox/addon/vue-js-devtools/).
+- [Vue.js Devtools for Google Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en).
+- [Vue.js Devtools for Mozilla Firefox](https://addons.mozilla.org/en-GB/firefox/addon/vue-js-devtools/).
 
 # Planned Improvements
 * Install [Vuex-Persist](https://github.com/championswimmer/vuex-persist) as this will allow the optional out of the box ability to persist your Vuex state to Cookies or LocalStorage.
