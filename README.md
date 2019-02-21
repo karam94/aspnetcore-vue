@@ -38,7 +38,7 @@ This template was created to cater for easy and quick creation of MVC/VueJS-base
    - Note: `dotnet run` should be run in `Development` environment for hot reloading. This setting can be set either within the command line or via the `launchSettings.json` available in the `Properties` folder.
 - Browse to [http://localhost:5000](http://localhost:5000).
 
-# Recommended plugin for debugging VueJS
+# Recommended plugins for VueJS
 - Vue.js Devtools for Google Chrome [here](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en).
 - Vue.js Devtools for Mozilla Firefox [here](https://addons.mozilla.org/en-GB/firefox/addon/vue-js-devtools/).
 
