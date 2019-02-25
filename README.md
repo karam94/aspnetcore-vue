@@ -11,8 +11,7 @@ This template was created to cater for easy and quick creation of MVC/VueJS-base
 * [Getting Started](#getting-started)
 * [Recommended Plugins](#recommended-plugin-for-debugging-VueJS)
 * [Planned Improvements](#planned-improvements)
-* [Bugs & Improvements](#found-a-bug?-suggest-an-improvement?)
-* [Special Thanks](#special-thanks)
+* [Credits](#credits)
 
 # Features
 
@@ -26,7 +25,7 @@ This template was created to cater for easy and quick creation of MVC/VueJS-base
   - Flexbox based CSS Framework
 
 # Prerequisites:
- * [.Net Core 2.2](https://www.microsoft.com/net/download/windows)
+ * [.NET Core 2.2](https://www.microsoft.com/net/download/windows)
  * [NodeJS](https://nodejs.org/) >= 8.9.4
  * [VSCode](https://code.visualstudio.com/) or VS2017
 
@@ -43,20 +42,10 @@ This template was created to cater for easy and quick creation of MVC/VueJS-base
 - [Vue.js Devtools for Mozilla Firefox](https://addons.mozilla.org/en-GB/firefox/addon/vue-js-devtools/).
 
 # Planned Improvements
+* Upgrade from Vue.js 2.0 to Vue.js 3.0.
+* Integrate Vue.js 3.0 CLI usage.
 * Install [Vuex-Persist](https://github.com/championswimmer/vuex-persist) as this will allow the optional out of the box ability to persist your Vuex state to Cookies or LocalStorage.
 
-# Found a Bug? Suggest an improvement?
+# Credits
 
-Nothing's ever perfect, but please let me know by creating an issue (make sure there isn't an existing one about it already), and we'll try and work out a fix for it! If you have any good ideas, or want to contribute, feel free to either make an Issue with the Proposal, or just make a PR from your Fork.
-
-
-# Special Thanks
-
-Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his amazing work on [JavaScriptServices](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/) and integrating the world of Node with ASP.NET Core.
-
-### Also, a million thanks to key Contributors ! 
-
-- [@Nordes](https://github.com/Nordes) :sparkles:
-- [@mika76](https://github.com/mika76) :sparkles:
-- [@vip32](https://github.com/vip32) :sparkles:
-- [@anderly](https://github.com/anderly) :sparkles:
+Huge shoutout to [Mark Pieszak](https://github.com/MarkPieszak/) and his [aspnetcore-Vue-starter](https://github.com/MarkPieszak/aspnetcore-Vue-starter) template that this project is based on, alongside all the contributors that have aided that [project](https://github.com/MarkPieszak/aspnetcore-Vue-starter).
