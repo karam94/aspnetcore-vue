@@ -19,10 +19,11 @@ This template was created to cater for easy and quick creation of MVC/VueJS-base
   - Web API
 - **[VueJS 2.0](https://vuejs.org/)**
   - Vuex (State Management)
+- **[Bulma](https://bulma.io)**
+  - Flexbox based CSS/SASS Framework
 - **[Webpack](https://webpack.js.org/)**
   - HMR (Hot Module Replacement/Reloading)
-- **[Bulma](https://bulma.io)**
-  - Flexbox based CSS Framework
+  - Transpiles SASS files
 
 # Prerequisites:
  * [.NET Core 2.2](https://www.microsoft.com/net/download/windows)
