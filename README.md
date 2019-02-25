@@ -31,8 +31,8 @@ This template was created to cater for easy and quick creation of MVC/VueJS-base
  * [VSCode](https://code.visualstudio.com/) or VS2017
 
 # Getting Started:
- - Install the template to your .NET CLI from NuGet: `dotnet new -i TODO`.
- - Create folder from template: `dotnet new TODO` ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x)).
+ <!-- - Install the template to your .NET CLI from NuGet: `dotnet new -i TODO`.
+ - Create folder from template: `dotnet new TODO` ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x)). -->
  - Restore Node dependencies by running `npm install`.
  - `dotnet run` or `npm run dev` or Run the application in VS Code or Visual Studio 2017.
    - Note: `dotnet run` should be run in `Development` environment for hot reloading. This setting can be set either within the command line or via the `launchSettings.json` available in the `Properties` folder.
@@ -43,6 +43,7 @@ This template was created to cater for easy and quick creation of MVC/VueJS-base
 - [Vue.js Devtools for Mozilla Firefox](https://addons.mozilla.org/en-GB/firefox/addon/vue-js-devtools/).
 
 # Planned Improvements
+* Make available as a NuGet template to be used with `dotnet new` through the .NET CLI.
 * Upgrade from Vue.js 2.0 to Vue.js 3.0.
 * Integrate Vue.js 3.0 CLI usage.
 * Install [Vuex-Persist](https://github.com/championswimmer/vuex-persist) as this will allow the optional out of the box ability to persist your Vuex state to Cookies or LocalStorage.
