@@ -9,7 +9,7 @@ This template was created to cater for easy and quick creation of MVC/VueJS-base
 * [Features](#features)
 * [Prerequisites](#prerequisites)
 * [Getting Started](#getting-started)
-* [Recommended Plugins](#recommended-plugins-for-VueJS)
+* [Recommended Plugins for VueJS](#recommended-plugins-for-VueJS)
 * [Planned Improvements](#planned-improvements)
 * [Credits](#credits)
 
