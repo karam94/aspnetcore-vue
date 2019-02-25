@@ -9,7 +9,7 @@ This template was created to cater for easy and quick creation of MVC/VueJS-base
 * [Features](#features)
 * [Prerequisites](#prerequisites)
 * [Getting Started](#getting-started)
-* [Recommended Plugins](#recommended-plugin-for-debugging-VueJS)
+* [Recommended Plugins](#recommended-plugins-for-VueJS)
 * [Planned Improvements](#planned-improvements)
 * [Credits](#credits)
 
@@ -47,5 +47,4 @@ This template was created to cater for easy and quick creation of MVC/VueJS-base
 * Install [Vuex-Persist](https://github.com/championswimmer/vuex-persist) as this will allow the optional out of the box ability to persist your Vuex state to Cookies or LocalStorage.
 
 # Credits
-
 Huge shoutout to [Mark Pieszak](https://github.com/MarkPieszak/) and his [aspnetcore-Vue-starter](https://github.com/MarkPieszak/aspnetcore-Vue-starter) template that this project is based on, alongside all the contributors that have aided that [project](https://github.com/MarkPieszak/aspnetcore-Vue-starter).
