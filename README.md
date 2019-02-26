@@ -34,8 +34,7 @@ This template was created to cater for easy and quick creation of MVC/VueJS-base
  <!-- - Install the template to your .NET CLI from NuGet: `dotnet new -i TODO`.
  - Create folder from template: `dotnet new TODO` ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x)). -->
  - Restore Node dependencies by running `npm install` followed by `dotnet restore`.
- - `dotnet run` or `npm run dev` or Run the application in VS Code or Visual Studio 2017.
-   - Note: `dotnet run` should be run in `Development` environment for hot reloading. This setting can be set either within the command line or via the `launchSettings.json` available in the `Properties` folder.
+ - `npm run dev` to run the application.
 - Browse to [http://localhost:5000](http://localhost:5000).
 
 # Recommended plugins for VueJS
