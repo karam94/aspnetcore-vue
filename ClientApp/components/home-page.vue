@@ -33,7 +33,7 @@
       </li>
       <li>
         <strong>Webpack dev middleware:</strong> In development mode, there's no need to run the
-        <code>webpack</code> build tool. Your client-side resources are dynamically built on demand. Updates are available as soon
+        Webpack build tool. Your client-side resources are dynamically built on demand. Updates are available as soon
         as you modify any file.
       </li>
       <li>
@@ -49,7 +49,7 @@
       <li>
         <strong>Efficient production builds:</strong> In production mode, development-time features are disabled,
         and the
-        <code>webpack</code> build tool produces minified static CSS and JavaScript files.
+        Webpack build tool produces minified static CSS and JavaScript files.
       </li>
       <li>
         <strong>Vuex state management:</strong> Vue.js is already configured to use Vuex as its state management pattern for the client-side.
