@@ -44,7 +44,7 @@ This template was created to cater for easy and quick creation of MVC/VueJS-base
 # Planned Improvements
 * Make available as a NuGet template to be used with `dotnet new` through the .NET CLI.
 * Upgrade from Vue.js 2.0 to Vue.js 3.0.
-* ---Upgrade to Webpack 4---
+* ~~Upgrade to Webpack 4
 * Integrate Vue.js 3.0 CLI usage.
 * Install [Vuex-Persist](https://github.com/championswimmer/vuex-persist) as this will allow the optional out of the box ability to persist your Vuex state to Cookies or LocalStorage.
 * Further develop nav-menu component to also cater for mobile devices with a hamburger dropdown.
